@@ -30,7 +30,7 @@ jobs:
         version: v2.1
         args: controllers/ database/ models/ routes/
 
-    - name: Tests
+    - name: Testes
       run: |
         export DB_HOST=${{ secrets.DB_HOST }}
         export DB_USER=${{ secrets.DB_USER }}
